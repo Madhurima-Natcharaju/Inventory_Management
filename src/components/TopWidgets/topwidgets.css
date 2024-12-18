@@ -1,0 +1,11 @@
+.card-body {
+  background-color: #22301a !important;
+  font-family: Arial, sans-serif;
+  color: #fff !important;
+  border-radius: 10px !important;
+}
+
+.card {
+  border: none;
+  border-radius: 15px !important;
+}

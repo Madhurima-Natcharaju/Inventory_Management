@@ -1,0 +1,72 @@
+.custom-table {
+  background-color: inherit !important;
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  color: inherit !important;
+  background-color: inherit !important;
+  border-collapse: collapse;
+  margin: 0;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+  text-align: left;
+  border: none;
+  background-color: inherit !important;
+}
+
+.table th {
+  font-size: 14px;
+  color: #a5e654 !important;
+  text-transform: uppercase;
+}
+
+.table tbody tr {
+  background-color: transparent !important;
+  transition: background-color 0.3s ease;
+}
+
+.table tbody tr:hover {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.05
+  ) !important; /* Subtle hover effect */
+}
+
+.table td {
+  font-size: 14px;
+  color: inherit !important; /* Inherits the page text color */
+}
+
+.table .icon-action {
+  font-size: 18px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.table .icon-action:hover {
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.table .icon-edit {
+  color: #a5e654;
+}
+
+.table .icon-view {
+  color: #a084ca;
+}
+
+.table .icon-delete {
+  color: #e74c3c;
+}
